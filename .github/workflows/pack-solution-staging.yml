@@ -38,3 +38,7 @@ jobs:
           solution-folder: contents/${{ github.event.inputs.solution_name }}
           solution-type: Both
           overwrite-files: true
+
+      - uses: EndBug/add-and-commit@v9
+        with: 
+          add: contents
