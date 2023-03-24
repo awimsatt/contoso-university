@@ -22,4 +22,4 @@ jobs:
           environment-url: ${{ vars.POWERPLATFORMURL }}
           user-name: ${{ secrets.USERNAME }}
           password-secret: ${{ secrets.PASSWORD }}
-          solution-file: ${{ github.event.inputs.solution_name }}_managed.zip
+          solution-file: out/${{ github.event.inputs.solution_name }}_managed.zip
