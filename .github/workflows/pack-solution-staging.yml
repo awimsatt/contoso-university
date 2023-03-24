@@ -43,4 +43,6 @@ jobs:
         with: 
           author_name: Adam Wimsatt
           author_email: adam@fuzzyllama.com
+          committer_name: Adam Wimsatt
+          committer_email: adam@fuzzyllama.com
           add: contents
